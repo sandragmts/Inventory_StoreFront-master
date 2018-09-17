@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <!-- Card View / Card View Layout -->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/elevation_dimen"
+        app:cardElevation="@dimen/medium_small_dimen"
+        card_view:cardUseCompatPadding="true">
+
+
+        <!-- Date and Time Layout -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:id="@+id/tag"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_product_stock" />
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/product_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@+id/tag"
+                android:fontFamily="@font/bluehighway"
+                android:text="any test"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/quantity"
+                style="@style/info"
+                android:layout_alignStart="@+id/product_Name"
+                android:layout_centerVertical="true"
+                android:text="any test" />
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/info"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/product_Name"
+                android:layout_marginBottom="13dp"
+                android:text="any test" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

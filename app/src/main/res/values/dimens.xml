@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view_padding">16dp</dimen>
+
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Dp values -->
+    <dimen name="extra_small_dimen">2dp</dimen>
+    <dimen name="small_dimen">4dp</dimen>
+    <dimen name="corners_radius_call_supplier_button">5dp</dimen>
+    <dimen name="elevation_dimen">6dp</dimen>
+    <dimen name="medium_small_dimen">8dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="some_margins">15dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="margin_LinearLayout_list_item">16dp</dimen>
+    <dimen name="medium_large">20dp</dimen>
+    <dimen name="width_imageView_update_quantity">30dp</dimen>
+    <dimen name="height_imageView_update_quantity">30dp</dimen>
+    <dimen name="margin_ImageView_list_item">85dp</dimen>
+    <dimen name="large_medium">40dp</dimen>
+    <dimen name="large">50dp</dimen>
+
+    <!-- Sp values -->
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="regular_text">16sp</dimen>
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="mega_title">40sp</dimen>
+
+</resources>

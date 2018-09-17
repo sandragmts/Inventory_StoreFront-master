@@ -1,0 +1,92 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Inventory App</string>
+
+    <!-- Title text for the empty view, which describes the empty inventory image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">StoreFront Database</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Our inventory is currently empty. Use the + to add products to your section</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for product details in the editor [CHAR LIMIT=30] -->
+    <string name="product_details">Product Details</string>
+
+    <!-- Text hint for product name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Product Name*</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_price">Price* (0.00)</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_quantity">Quantity*</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Supplier Name*</string>
+
+    <!-- Text hint for supplier phone number field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_phone_number">Supplier Phone Number*</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Product</string>
+
+    <!-- Title for the activity to edit an existing book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Product</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Product saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving product</string>
+
+    <!-- Toast message in editor when current book was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_successful">Product updated</string>
+
+    <!-- Toast message in editor when current book has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting product</string>
+
+    <!-- Button in editor to call the supplier [CHAR LIMIT=NONE] -->
+    <string name="call_supplier">Call Supplier</string>
+
+    <!-- Toast message in editor when there is no more product available in stock [CHAR LIMIT=NONE] -->
+    <string name="no_product_in_stock">Product is no longer available in stock</string>
+
+    <!-- Button in catalog to sell book and reduce quantity by one [CHAR LIMIT=NONE] -->
+    <string name="sell_book">Sell Product</string>
+
+    <!-- Toast message in list_item when the user click the sell button. This button reduce the quantity by 1 [CHAR LIMIT=20] -->
+    <string name="sell_book_confirm">1 item has been sold</string>
+
+    <!-- Content description for ImageView Sell Button [CHAR LIMIT=10] -->
+    <string name="contentDescription_sell_book_image_view">Sell Product</string>
+
+</resources>
